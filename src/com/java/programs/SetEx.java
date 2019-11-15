@@ -1,5 +1,6 @@
 package com.java.programs;
 
+import java.text.Collator;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -8,6 +9,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Locale;
 import java.util.TreeSet;
 
 public class SetEx {
@@ -78,8 +80,16 @@ public class SetEx {
 
 		
 		Compare comp = new Compare();
-		comp.compare(al2, b)
-		Collections.sort(al2, comp);
+		/*comp.compare(al2, b)
+		Collections.sort(al2, comp);*/
+	
+		
+		Collections.sort(ts, comp);
+		
+		
+		
+		
+		
 		
 		//Arrays.sort(al, comp);
 		
