@@ -91,7 +91,7 @@ public class SetEx {
 		
 		
 		
-		//Arrays.sort(al, comp);
+		Arrays.sort(al, comp);
 		
 		//Collections.sort(ts);
 		
